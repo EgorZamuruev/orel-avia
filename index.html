@@ -1,53 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="src/style.css">
+	<link rel="stylesheet" href="/src/css/style.css">
 	<title>Орёл АВИА</title>
 </head>
+
 <body>
-<header class="header" id="header">
-	<div class="container">
-		<div class="header__left">
-			<img src="src/img/logo.png" alt="logo" class="header__logo">
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__left">
+					<img src="src/img/logo.png" width="50" height="50" alt="logo" class="header__logo">
+				</div>
+				<div class="header__right">
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Акции</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Поиск</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Регистрация</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Личный Кабинет</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		</div>
-		<div class="header__right">
-			<nav class="header__menu">
-				<ul class="menu__list">
-					<li class="list__item"><a href="#" class="list__link">Акции</a></li>
-					<li class="list__item"><a href="#" class="list__link">Регистрация</a></li>
-				</ul>
-			</nav>
-			<a href="#" class="link personal__area">
-				<img src="src/img/lk.png" alt="Personal Area" class="img personal__area">
-			</a>
-		</div>
-	</div>
-</header>
-<section class="main">
-	<div class="booking">
-		<div >
-		<form class="form" action="">
-			<p><input class="field" type="text" placeholder="Откуда"><input class="field" type="text" placeholder="Куда"><input class="field" type="text" placeholder="Когда"><input class="field" type="text" placeholder="Обратно"></p>
-		</form>
-		</div>
-	</div>
-</section>
-<section class="about__company">
-	<img class="about__company-img" src="src/img/samolet.jpg" alt="aireplane">
-	<div class="container">
-	<div class="title">
-		О Компании
-	</div>
-	<p class="subtitle">
-		«Орел АВИА» - новая и энергичная авиакомпания,<br>
-предоставляющая услуги пассажирских авиаперевозок небольшими малогабаритными<br>
-самолетами. Главная цель компании - развить связность между городами Урала путем<br>
-организации авиасообщений на непостоянной основе по мере накопления запросов на<br>
-перелет.
-	</p>
-	</div>
-</section>
+	</header>
 </body>
+
 </html>
