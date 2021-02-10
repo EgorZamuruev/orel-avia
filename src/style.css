@@ -1,0 +1,82 @@
+body {
+	margin: 0 auto;
+	background-color: #0474fe;
+}
+
+li {
+	list-style: none;
+}
+
+.header {
+	display: flex;
+	width: 100%;
+}
+.container {
+	margin: 0 auto;
+}
+.header__left {
+}
+.header__logo {
+	width: 50px;
+	height: 50px;
+}
+.header__right {
+}
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+}
+.menu__list {
+	margin: 0px;
+	padding-left: 0;
+}
+.list__item {
+	align-items: center;
+}
+.list__link {
+	text-decoration: none;
+}
+.link {
+}
+.personal__area {
+}
+.img {
+	width: 50px;
+	height: 50px;
+}
+
+.form {
+	margin: 100px 0 0 0;
+	text-align: center;
+}
+
+.field {
+	height: 40px;
+	width: 200px;
+	margin: 0 1px 0 1px;
+}
+
+.about__company {
+	position: relative;
+    text-align: center;
+}
+
+.about__company-img {
+	opacity: 0.8;
+	width: 100%;
+}
+
+.container {
+	position: absolute;
+	text-align: center;
+	top: 16px;
+	color: #0474fe;
+}
+
+.title {
+	font-size: 30px;
+}
+
+.subtitle {
+	font-size: 25px;
+}
