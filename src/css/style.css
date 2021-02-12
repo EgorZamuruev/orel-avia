@@ -2,8 +2,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
+	box-sizing: border-box;
+	margin: 0;
 }
 
 body {
@@ -16,6 +16,21 @@ body {
 a {
 	color: #000000;
 	text-decoration: none;
+}
+
+.input {
+	padding: 10px 0 10px 5px;
+}
+
+.btn {
+	border: none;
+	border-radius: 5px;
+	padding: 12px 14px;
+	font-weight: bold;
+}
+
+.d-block {
+	display: block;
 }
 
 .header {
@@ -34,13 +49,26 @@ a {
 	align-items: center;
 }
 
+.header__left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.header__logo {
+	margin: 0 10px 0 0;
+}
+
+.company__name {
+	font-size: 18px;
+}
+
 .header__right {
 	flex-basis: 35%;
 }
 
-.header__menu {
-
-}
+.header__menu {}
 
 .menu__list {
 	list-style: none;
@@ -62,4 +90,51 @@ a {
 .menu__link {
 	color: #ffffff;
 	font-size: 18px;
+}
+
+.search {
+	padding: 80px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.seach__title {
+	text-align: center;
+	margin: 0 0 20px 0;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.input__from_where {}
+
+.search__passenger {
+	width: 75px;
+	padding: 10px 5px;
+	min-height: 40px;
+}
+
+.btn__search {
+	background-color: #ff6f32;
+	color: #ffffff;
+	padding: 12px 18px;
+}
+
+.about_company {
+	padding: 100px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.about_company__title {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0  0 40px 0;
+}
+
+.about_company__text {
+	max-width: 900px;
+	margin: 0 auto;
+	font-size: 24px;
+	text-align: center;
 }
